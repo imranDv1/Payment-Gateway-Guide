@@ -4,7 +4,7 @@ import {
   LogosPaypal,
 } from "@/components/icons";
 import Navbar from "@/components/navbar";
-import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
+import YouTubeEmbed from "@/components/youtube-embed";
 import {
   Card,
   CardContent,
@@ -287,25 +287,20 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col lg:flex-row gap-3  items-center justify-evenly px-3">
-              <iframe
-                className="w-full lg:w-[540] h-[230] lg:h-[315]"
-                src="https://www.youtube.com/embed/mp2n4m22AqQ?si=TIccSwUZRdwbZbHU"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
-              <iframe
-                className="w-full lg:w-[540] h-[230] lg:h-[315]"
-                src="https://www.youtube.com/embed/JEtALC2t5dY?si=GEk-D6Rx2n2sc6Pe"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
+            <div className="flex flex-col lg:flex-row gap-4 items-center justify-evenly px-3 py-5">
+              <div className="w-full lg:w-135">
+                <YouTubeEmbed
+                  src="https://www.youtube.com/embed/mp2n4m22AqQ?si=TIccSwUZRdwbZbHU"
+                  title="Stripe video 1"
+                />
+              </div>
+
+              <div className="w-full lg:w-135">
+                <YouTubeEmbed
+                  src="https://www.youtube.com/embed/JEtALC2t5dY?si=GEk-D6Rx2n2sc6Pe"
+                  title="Stripe video 2"
+                />
+              </div>
             </div>
           </Card>
 
@@ -424,26 +419,20 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col lg:flex-row gap-3  items-center justify-evenly px-3">
-                <iframe
-                  className="w-full lg:w-[540] h-[230] lg:h-[315]"
-                  src="https://www.youtube.com/embed/EXAjAn-1_Xk?si=7-X67YVwAynfz4WA"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
+              <div className="flex flex-col lg:flex-row gap-4 items-center justify-evenly px-3 py-5">
+                <div className="w-full lg:w-135">
+                  <YouTubeEmbed
+                    src="https://www.youtube.com/embed/EXAjAn-1_Xk?si=7-X67YVwAynfz4WA"
+                    title="Stripe requirements 1"
+                  />
+                </div>
 
-                <iframe
-                  className="w-full lg:w-[540] h-[230] lg:h-[315]"
-                  src="https://www.youtube.com/embed/IlRgNpVeiPw?si=vetuWN4Pp9UL7-IM"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
+                <div className="w-full lg:w-135">
+                  <YouTubeEmbed
+                    src="https://www.youtube.com/embed/IlRgNpVeiPw?si=vetuWN4Pp9UL7-IM"
+                    title="Stripe requirements 2"
+                  />
+                </div>
               </div>
             </CardContent>
           </Card>
@@ -534,7 +523,7 @@ export default function Home() {
               </div>
 
               {/* Right Side */}
-              <div className="h-full min-h-[420px] border-l border-border/50  p-1 flex items-center justify-center">
+              <div className="h-full min-h-105 border-l border-border/50  p-1 flex items-center justify-center">
                 <div className=" space-y-6">
                   <div className="rounded-sm border border-border/60 bg-background/60 backdrop-blur p-4 space-y-5">
                     <div>
@@ -592,25 +581,20 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row gap-3  items-center justify-evenly px-3">
-              <iframe
-                className="w-full lg:w-[540] h-[230] lg:h-[315]"
-                src="https://www.youtube.com/embed/XqO5RRerleg?si=MOfJZ5Q9holIlSH8"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
-              <iframe
-                className="w-full lg:w-[540] h-[230] lg:h-[315]"
-                src="https://www.youtube.com/embed/HI-NjzZHGIQ?si=6e4CQxG4e7sEBpiX"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
+            <div className="flex flex-col lg:flex-row gap-4 items-center justify-evenly px-3 py-5">
+              <div className="w-full lg:w-135">
+                <YouTubeEmbed
+                  src="https://www.youtube.com/embed/XqO5RRerleg?si=MOfJZ5Q9holIlSH8"
+                  title="LLC video 1"
+                />
+              </div>
+
+              <div className="w-full lg:w-135">
+                <YouTubeEmbed
+                  src="https://www.youtube.com/embed/HI-NjzZHGIQ?si=6e4CQxG4e7sEBpiX"
+                  title="LLC video 2"
+                />
+              </div>
             </div>
           </Card>
         </div>

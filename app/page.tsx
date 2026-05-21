@@ -80,17 +80,17 @@ export default function Home() {
               What is a Payment Gateway?
             </CardTitle>
 
-            <CardDescription className="text-lg leading-relaxed">
+            <CardDescription  id="providers" className="text-lg leading-relaxed">
               A payment gateway is a technology that securely authorizes and
               processes payments between customers and businesses. It encrypts
               payment data, connects with banks, verifies transactions, and
               ensures money moves safely from the customer to the merchant.
             </CardDescription>
-          </CardHeader>
+          </CardHeader >
         </Card>
 
         {/* Providers */}
-        <div className="space-y-4" id="providers">
+        <div className="space-y-4" >
           <div>
             <h2 className="text-2xl font-bold font-code-pro">
               Best Payment Gateway Providers
@@ -143,7 +143,7 @@ export default function Home() {
             ))}
           </div>
           {/* Stripe Highlight Section */}
-          <Card className="bg-background border-border/60 shadow-sm overflow-hidden">
+          <Card  id="stripe" className="bg-background border-border/60 shadow-sm overflow-hidden">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               {/* Left Content */}
               <div className=" p-3 flex flex-col gap-5">
@@ -155,7 +155,7 @@ export default function Home() {
                   </span>
                 </div>
 
-                <div className="space-y-3" id="stripe">
+                <div className="space-y-3">
                   <h2 className="text-4xl font-bold font-code-pro leading-tight">
                     Why Stripe is the Best Payment Gateway for Developers
                   </h2>
